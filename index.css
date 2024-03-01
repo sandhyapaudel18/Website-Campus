@@ -78,6 +78,7 @@ img{
 
 .nav2{
     display: flex;
+    justify-content: space-evenly;
   
     
 
@@ -85,14 +86,14 @@ img{
 .nav2 a{
     text-decoration: none;
     color:white;
-    jus
+   
 
 
 }
-a:hover{
+/* a:hover{
     color:black;
     text-decoration: line-through;
     text-decoration-line: underline;
     text-decoration-color: white;
 
-}
+} */
