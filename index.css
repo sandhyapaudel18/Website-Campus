@@ -102,11 +102,12 @@ a .one:hover .dropdown-content{
     display: block;
 }
 .main{
-    height:100%;
-    width:100%;
-    background-image:url(./kalika\ ediited.jpg);
+    height:900px;
+    width: 1600px;
+    position: relative;
+    background-image:url(./b8f5733b-5fff-458b-812d-2bc8c851f62b.png);
     background-position: cover;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
 
 }
 
