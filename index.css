@@ -104,7 +104,9 @@ a .one:hover .dropdown-content{
 .main{
     height:100%;
     width:100%;
+    background-image:url(./kalika\ ediited.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+
 }
-.main{
-    background-image: url(./demo.webp);
-}
+
