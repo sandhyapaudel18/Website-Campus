@@ -102,13 +102,23 @@ a .one:hover .dropdown-content{
     display: block;
 }
 .main{
-    height:700px;
-    width: 1290px;
+    height:500px;
+    width: 1256px;
     position: relative;
     background-image:url(./46014619-6a5b-487f-a9a8-6be884ba90d9.png);
+    border:5px solid #474F7A;
     background-size:cover ;
     background-repeat:no-repeat;
+    animation:slide 20s infinite;;
+   
 
+}
+@keyframes slide{
+   25%{background-image: url(./progam.jpg);}
+   50%{background-image: url(./field\ visit\ students.jpg);}
+   75%{background-image: url(./4983c789d2417725c0c3cb8ea91f027f.jpg);}
+   100%{background-image: url(./finallly.png);}
+ 
 }
 .main1{
     height:100px;
