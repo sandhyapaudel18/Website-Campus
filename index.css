@@ -41,6 +41,7 @@
     align-items: center;
     display: flex;
     justify-content:space-between;
+    position:sticky;
 }
 .nav1{
     padding-left:50px;
