@@ -100,32 +100,52 @@ margin-left: 75px;
     color:#81689D;
 }
 #Home{
-   height:80vh;
-   width:100vw;
+   height:100vh;
+   width:100%;
    background-image: url(./46014619-6a5b-487f-a9a8-6be884ba90d9.png);
    background-position: center;
    background-size: 100% 100%;
    background-repeat: no-repeat;
-   animation-name: anime;
-   animation-duration:;
-   animation-timing-function: linear;
-   animation-iteration-count: infinite;
+ 
 }
+#About{
+    height:100vh;
+    width:100vw;
+    background-color: #efecf4;
+    
+}
+#About .box{
+    height:100px;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#efecf4;
+    
+}
+#About .box1 a,.box2 a,.box3 a,.box4 a{
+    text-decoration: none;
+    color:#1F2544;
+    font-size: 20px;
+    font-weight:600 ;
 
-@keyframes anime{
-    0%{
-        background-image: url(./field\ visit\ students.jpg);
-    }
-    25%{
-        background-image: url(./4983c789d2417725c0c3cb8ea91f027f.jpg);
-    }
-    50%{
-        background-image: url(./progam.jpg);
-    }
-    75%{
-        background-image: url(./teachers\ kalika.jpg);
-    }
-    100%{
-        background-image: url(./IMG_2823.JPG);
-    }
+}
+#About .box1 i,.box2 i,.box3 i,.box4 i{
+    margin-right:6px;
+    font-size: 30px;
+}
+#About .photo{
+    height:477px;
+    width:800px;
+
+}
+#About .photo img{
+    height:477px;
+    width:800px;
+    border-radius: 3px;
+}
+.mix{
+    height:100vh;
+    width: 100vw;
+    display: flex;
 }
