@@ -101,7 +101,7 @@ margin-left: 75px;
 }
 #Home{
    height:100vh;
-   width:100%;
+   width:100vw;
    background-image: url(./46014619-6a5b-487f-a9a8-6be884ba90d9.png);
    background-position: center;
    background-size: 100% 100%;
@@ -135,12 +135,12 @@ margin-left: 75px;
     font-size: 30px;
 }
 #About .photo{
-    height:477px;
+    height:475px;
     width:800px;
 
 }
 #About .photo img{
-    height:477px;
+    height:475px;
     width:800px;
     border-radius: 3px;
 }
@@ -148,4 +148,7 @@ margin-left: 75px;
     height:100vh;
     width: 100vw;
     display: flex;
+}
+#About .speech{
+    border-radius: 5px solid black;
 }
