@@ -11,20 +11,18 @@ html{
     scroll-behavior: smooth scroll;
 }
 
-body{
-    padding-top:120px;
-}
+
 
 .headings{
     height:30px;
-    width:100%;
-    position: fixed;
+    width:100vw;
+
     background-color:#474F7A;
     display:flex;
     align-items: center;
     justify-content:center;
-     top:0px;
-      position: fixed;
+     /* top:0px;
+      position: fixed; */
 }
 
 .headings1{
@@ -42,14 +40,15 @@ body{
     align-items: center;
 }
 .nav{
-    top:30px;
+
     height:90px;
-    width:100%;
+    width:100vw;
     background-color: #1F2544;
     align-items: center;
     display: flex;
     justify-content:space-between;
-    position: fixed;
+    /* position:sticky;
+    top:0px; */
 
 }
 .nav1{
@@ -151,4 +150,157 @@ margin-left: 75px;
 }
 #About .speech{
     border-radius: 5px solid black;
+}
+#Courses{
+    height:100vh;
+    width:100vw;
+
+}
+#Courses .div0{
+    height:100px;
+    width:100%;
+    background-color:#ffffff;
+
+   
+}
+#Courses .div0 .para1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top:15px;
+}
+#Courses .div0 .para1 p{
+   
+    text-decoration: none;
+    color:#1F2544;
+    font-size: 20px;
+    font-weight:600 ;
+
+}
+#Courses .div0 .para2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#Courses .div0 .para2 p{
+    color:#1F2544;
+    font-size: 17px;
+    font-weight: 400;
+
+
+}
+
+
+
+#Courses .div00{
+    display: flex;
+    gap:20px;
+    justify-content:space-evenly;
+}
+#Courses .BCA
+{
+         display: flex;
+    width:300px;
+    height: 300px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 10px;
+
+    border: 1px solid var( #e6e7e8);
+    background: rgb(235, 225, 225);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.19) 0
+}
+#Courses .div00 .serial-no{
+    color: transparent;
+    font-family: Poppins, sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 84px;
+    -webkit-text-stroke: 3px black;
+    text-shadow: rgba(51, 96, 149, 0.24) 0px 11px 1px;
+}
+#Courses .div00 .BBS .serial-no{
+    color: transparent;
+    font-family: Poppins, sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 84px;
+    -webkit-text-stroke: 3px black;
+    text-shadow: rgba(51, 96, 149, 0.24) 0px 11px 1px;
+}
+
+#Courses .BBS{
+    display: flex;
+    width:300px;
+    height: 300px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 10px;
+ 
+    border: 1px solid var( #e6e7e8);
+    background-color:#1F2544;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+}
+
+#Courses .Bed{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 10px;
+
+    border: 1px solid var( #e6e7e8);
+    background: rgb(235, 225, 225);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+}
+
+#Courses .div00 .title{
+    font-size: 20px;
+    font-weight: 600;
+    color:black
+}
+#Courses .div00 .BBS .description{
+    color:white;
+    font-size: 15px;
+}
+#Courses .div00 .description{
+    font-size: 15px;
+}
+#Courses .div00 .BBS .title{
+    color:white;
+
+}
+#Courses .div00 .BBS .serial-no{
+ color:white;
+ 
+}
+.knowmore{
+    height:150px;
+    width:100%;
+    background-color:#ffff;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.knowmore a{
+    color:#1F2544;
+    font-size: 20px;
+    font-weight: 600;
+}
+.knowmore i{
+    color:#1F2544;
+    margin-left:4px;
+    size:15px;
+}
+#Gallery{
+    height:100vh;
+    width:100vw;
+    background-color:#bca8d3;
 }
