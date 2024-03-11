@@ -10,13 +10,17 @@
 html{
     scroll-behavior: smooth scroll;
 }
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 
 
 .headings{
     height:30px;
     width:100vw;
-
+     overflow:  hidden;
     background-color:#474F7A;
     display:flex;
     align-items: center;
@@ -46,8 +50,10 @@ html{
     background-color: #1F2544;
     align-items: center;
     display: flex;
+  
     justify-content:space-between;
     /* position:sticky;
+   overflow:hidden;
     top:0px; */
 
 }
@@ -90,14 +96,16 @@ margin-left: 75px;
 .nav2 a{
     text-decoration: none;
     color:white;
-    margin-left:60px;
-    margin-right:15px;
+    margin-left:55px;
+    margin-right:21px;
     font-size: 17px;
    
 }
+
+
 .nav2 a:hover{
     color:#81689D;
-}
+} 
 #Home{
    height:100vh;
    width:100vw;
@@ -105,6 +113,7 @@ margin-left: 75px;
    background-position: center;
    background-size: 100% 100%;
    background-repeat: no-repeat;
+
  
 }
 #About{
@@ -302,5 +311,11 @@ margin-left: 75px;
 #Gallery{
     height:100vh;
     width:100vw;
-    background-color:#bca8d3;
+    background-color:#edbd1e;
+}
+#Notices{
+    height:100vh;
+    width:100vw;
+    background-color:#efd6e5;
+
 }
